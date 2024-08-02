@@ -14,7 +14,7 @@ A real-time chat application built using Node.js for the backend, React.js for t
 
 Here is a videos showcasing the application:
 
-- **Home Page Overview:** ![Home Page](https://github.com/sreyas-sc/BellaCode/raw/main/videos/home-page.mp4)
+- **Home Page Overview:** ![Home Page](https://github.com/sreyas-sc/BellaCode/chat-app-frontend/src/assets/chatappjs.mp4)
 
 
 ## Installation
