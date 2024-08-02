@@ -10,11 +10,29 @@ A real-time chat application built using Node.js for the backend, React.js for t
 - **Message Deletion:** Delete messages within 2 minutes.
 - **User Authentication:** Sign in with email/password.
 
-## Screens
+## Screenshots:
 
-Here is a videos showcasing the application:
+1. **Login Screen:** 
+   ![Login Screen](chat-app-frontend/src/assets/loginchat.jpg)
+   
+2. **SignUp Screen:** 
+   ![SignUp Screen](chat-app-frontend/src/assets/registerchat.jpg)
 
-- **Home Page Overview:** ![Home Page](https://github.com/sreyas-sc/BellaCode/chat-app-frontend/src/assets/chatappjs.mp4)
+3. **Home Screen:** 
+   ![Home Screen](chat-app-frontend/src/assets/homechat.jpg)
+
+5. **Chat Screen:** 
+   ![Chat Screen](chat-app-frontend/src/assets/chatpagechat.jpg)
+
+6. **Video Call Screen:** 
+   ![Video Call Screen](chat-app-frontend/src/assets/VideoCall.jpg)
+
+
+
+Here are some videos showcasing the application:
+- **Home Page Overview:** [Watch Video](https://github.com/sreyas-sc/JSChatAPP/chat-app-frontend/src/assets/chatappjs.mp4)
+
+
 
 
 ## Installation
