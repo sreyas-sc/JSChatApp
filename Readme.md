@@ -26,12 +26,31 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- [PostgreSQL](https://www.postgresql.org/) (for Supabase database)
+- [Supabase](https://supabase.com/) (for database and authentication)
 
 ### Clone the Repository
 
 First, clone the repository:
 
 ```bash
-git clone https://github.com/sreyas-sc/BellaCode.git
+Git Clone https://github.com/sreyas-sc/JSChatApp.git
 cd BellaCode
+
+cd chat-app-backend
+npm install
+
+
+cd ../chat-app-frontend
+npm install
+
+```
+
+### Run the app
+
+```bash
+cd BellaCode/chat-app-backend
+node server.js
+
+cd BellaCode/chat-app-frontend
+npm start
+```
