@@ -10,13 +10,12 @@ A real-time chat application built using Node.js for the backend, React.js for t
 - **Message Deletion:** Delete messages within 2 minutes.
 - **User Authentication:** Sign in with email/password.
 
-## Screenshots
+## Screens
 
-Here are some screenshots of the application:
+Here is a videos showcasing the application:
 
-![Home Page](screenshots/home-page.png)
-![Chat Page](screenshots/chat-page.png)
-![Call Page](screenshots/call-page.png)
+- **Home Page Overview:** ![Home Page](https://github.com/sreyas-sc/BellaCode/raw/main/videos/home-page.mp4)
+
 
 ## Installation
 
