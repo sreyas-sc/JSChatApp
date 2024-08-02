@@ -54,3 +54,36 @@ node server.js
 cd BellaCode/chat-app-frontend
 npm start
 ```
+
+## Database Schema(SUPABASE):
+
+(Change the database URL, KEY)
+
+**users Table**
+create table
+  public.users (
+    id uuid not null default extensions.uuid_generate_v4 (),
+    username character varying(255) not null,
+    email character varying(255) not null,
+    password_hash text not null,
+    created_at timestamp with time zone null default now(),
+    updated_at timestamp with time zone null default now(),
+    constraint users_pkey primary key (id),
+    constraint unique_email unique (email),
+    constraint users_username_key unique (username)
+  ) tablespace pg_default;
+
+**messages Table:**
+create table
+  public.messages (
+    id uuid not null default extensions.uuid_generate_v4 (),
+    content text not null,
+    created_at timestamp with time zone null default now(),
+    updated_at timestamp with time zone null default now(),
+    from_user_id uuid null,
+    to_user_id uuid null,
+    reaction character varying null,
+    constraint messages_pkey primary key (id),
+    constraint fk_from_user foreign key (from_user_id) references users (id) on delete set null,
+    constraint fk_to_user foreign key (to_user_id) references users (id) on delete set null
+  ) tablespace pg_default;
