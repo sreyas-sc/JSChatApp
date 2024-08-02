@@ -60,6 +60,8 @@ npm start
 (Change the database URL, KEY)
 
 **users Table**
+
+```bash
 create table
   public.users (
     id uuid not null default extensions.uuid_generate_v4 (),
@@ -72,8 +74,11 @@ create table
     constraint unique_email unique (email),
     constraint users_username_key unique (username)
   ) tablespace pg_default;
+```
 
 **messages Table:**
+
+```bash
 create table
   public.messages (
     id uuid not null default extensions.uuid_generate_v4 (),
@@ -87,3 +92,4 @@ create table
     constraint fk_from_user foreign key (from_user_id) references users (id) on delete set null,
     constraint fk_to_user foreign key (to_user_id) references users (id) on delete set null
   ) tablespace pg_default;
+```
