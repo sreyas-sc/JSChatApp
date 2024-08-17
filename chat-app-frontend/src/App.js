@@ -7,22 +7,6 @@
 // import ChatPage from './components/Chatpage';
 
 
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Login />} />
-//         <Route path="/register" element={<Register />} />
-//         <Route path="/home" element={<Home/>}/>
-//         <Route path="/chat/:user" component={ChatPage} />
-//         {/* <Route path="/chat" element={<ChatPage/>}/> */}
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
 
 
 import React from 'react';
