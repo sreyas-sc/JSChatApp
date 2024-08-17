@@ -1,11 +1,4 @@
 
-// import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Login from './components/Login';  // Check the file name and path
-// import Register from './components/Register';  // Check the file name and path
-// import Home from './components/Home';
-// import ChatPage from './components/Chatpage';
-
 
 
 
